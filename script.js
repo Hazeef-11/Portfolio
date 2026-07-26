@@ -57,10 +57,6 @@ contac.addEventListener("click",function(){
    contt.style.display="block";
 })
 
-submit.addEventListener("click",function(){
-   cn1.value=""; 
-   cn2.value="";
-   cn3.value="";
-})
+
 
 

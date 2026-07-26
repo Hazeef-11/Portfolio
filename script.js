@@ -9,6 +9,7 @@ var aboutt=document.getElementById("about")
 var aboutmee=document.getElementById("aboutme")
 var contac=document.getElementById("contact")
 var contt=document.getElementById("cont")
+var submit=document.getElementById("cn4")
 
 
 
@@ -54,6 +55,12 @@ contac.addEventListener("click",function(){
    resu.style.display="none";
    aboutmee.style.display="none";
    contt.style.display="block";
+})
+
+submit.addEventListener("click",function(){
+   cn1.value=""; 
+   cn2.value="";
+   cn3.value="";
 })
 
 
